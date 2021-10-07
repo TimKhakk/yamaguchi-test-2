@@ -52,6 +52,10 @@
   &.active {
     transform: scale(1);
   }
+
+  &.scale-down {
+    transform: scale(0.6);
+  }
 }
 
 

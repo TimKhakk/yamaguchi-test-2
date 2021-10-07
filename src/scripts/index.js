@@ -14,6 +14,11 @@ const womanAppear = () => {
   setTimeout(() => {
     woman.classList.add('fly')
   }, 2500)
+
+
+  setTimeout(() => {
+    hole.classList.add('scale-down')
+  }, 2500)
 }
 
 womanAppear()
