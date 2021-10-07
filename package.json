@@ -1,0 +1,23 @@
+{
+  "name": "yamaguchi-test-2",
+  "version": "1.0.0",
+  "description": "test project for hiring",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "install all deps": "npm i"
+  },
+  "author": "Timur Khakkiev",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "sass": "^1.38.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.0.1"
+  }
+}
