@@ -1,0 +1,43 @@
+.chat-wrapper {
+  grid-row: 1/5;
+  grid-column: 3/4;
+  display: grid;
+  place-items: center;
+}
+
+.chat {
+  width: 745px;
+}
+
+
+
+@media screen and (max-width: 1750px) {
+
+  .chat {
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .chat-wrapper {
+    grid-row: 4/5;
+    grid-column: initial;
+    margin-bottom: 30px;
+  }
+
+  .chat {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .chat-wrapper {
+    grid-row: 5/6;
+    grid-column: initial;
+    margin-bottom: 30px;
+  }
+
+  .chat {
+    width: 400px;
+  }
+}
